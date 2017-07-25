@@ -1,0 +1,45 @@
+html {
+  font-size: 32px;
+}
+html,
+body {
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+.header {
+  height: 1.35135135rem;
+  background: #ff841d;
+  position: relative;
+}
+.header .logo {
+  padding: 0.46875px;
+  height: 100%;
+}
+.header .logo a img {
+  max-height: 0.78125px;
+  overflow: hidden;
+}
+.header .appdown {
+  position: absolute;
+  width: 1.35rem;
+  height: 1.35rem;
+  right: 0;
+  top: 0;
+  padding: 0.189rem;
+}
+.header .appdown a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.header .appdown a img {
+  width: 100%;
+  height: 100%;
+}
+.form-search {
+  padding: 0.3125rem;
+  height: 1.5rem;
+  background-color: #fff;
+}
